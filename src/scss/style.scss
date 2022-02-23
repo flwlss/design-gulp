@@ -1,19 +1,11 @@
+@import "fonts";
+
+
 body {
-  background-color: black;
+  // background: url('@img/test.jpg') 0 0 no-repeat;
+  font-family: CormorantUpright;
+  font-size: 30px;
   span {
-    color: red;
-  }
-  background: url("@img/test.jpg") 0 0 no-repeat;
-}
-
-@media (max-width: 768px) {
-  span {
-    font-size: 20;
-  }
-}
-
-@media (max-width: 768px) {
-  body {
-    background-color: green;
+      color: red;
   }
 }
