@@ -1,11 +1,17 @@
 @import "fonts";
+@import "header";
 
 
 body {
-  // background: url('@img/test.jpg') 0 0 no-repeat;
-  font-family: CormorantUpright;
-  font-size: 30px;
-  span {
-      color: red;
-  }
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }

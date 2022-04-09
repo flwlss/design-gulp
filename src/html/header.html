@@ -1,3 +1,63 @@
-<div class="header">
-  <!-- <img src="@img/test.jpg" alt=""> -->
-</div>
+<header class="header-background">
+  <nav class="header-nav" id="headerNav">
+    <a href="#header" class="header-nav__logo-wrapper">
+      <img class="header-nav__logo" src="./img/logo.png" alt="Architecture Design">
+      <p class="header-nav__name">ARCHITECTURE <br>DESIGN STUDIO</p>
+    </a>
+    <div class="header-nav__item-wrapper">
+      <a href="#about">
+        <li class="header-nav__item">о нас</li>
+      </a>
+      <a href="#portfolio">
+        <li class="header-nav__item">портфолио</li>
+      </a>
+      <a href="#services">
+        <li class="header-nav__item">услуги и цены</li>
+      </a>
+      <a href="#contacts">
+        <li class="header-nav__item">контакты</li>
+      </a>
+      <span>
+        <li class="header-nav__item-tel">+7 (923) 479-27-99</li>
+      </span>
+    </div>
+
+    <div class="burger-menu">
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-btn" for="menu-toggle">
+        <span></span>
+      </label>
+
+      <ul class="menubox">
+        <div
+          style="height: 25vh; justify-content: space-between; display: flex; flex-direction: column; margin-left: 50px;">
+          <a href="#about">
+            <li class="header-nav__item-burger">о нас</li>
+          </a>
+          <a href="#portfolio">
+            <li class="header-nav__item-burger">портфолио</li>
+          </a>
+          <a href="#services">
+            <li class="header-nav__item-burger">услуги и цены</li>
+          </a>
+          <a href="#contacts">
+            <li class="header-nav__item-burger">контакты</li>
+          </a>
+          <span>
+            <li class="header-nav__item-burger__tel">+7 (923) 479-27-99</li>
+          </span>
+        </div>
+      </ul>
+    </div>
+  </nav>
+  <div id="header" class="header-top">
+  </div>
+  <div class="header-content">
+    <span class="header-content__subtitle">Современная архитектура</span>
+    <span class="header-content__title">воплоти свою мечту<br>в жизнь </span>
+    <button class="header-content__btn" onclick="showCard()">Заказать проект</button>
+  </div>
+  <div class="header-bottom">
+    <i class="header-bottom__down"></i>
+  </div>
+</header>
