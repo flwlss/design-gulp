@@ -144,7 +144,7 @@
     margin-right: 45px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header-nav__item-tel {
     display: none;
   }
@@ -163,7 +163,7 @@
   text-transform: uppercase;
   white-space: nowrap;
 }
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .header-nav__item-burger__tel {
     display: none;
   }
@@ -186,7 +186,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header-content {
     align-items: center;
     justify-content: space-evenly;
@@ -203,7 +203,7 @@
     font-size: 23px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header-content__subtitle {
     display: none;
   }
@@ -231,7 +231,7 @@
     font-size: 41px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header-content__title {
     text-align: center;
     font-size: 35px;
@@ -264,7 +264,7 @@
     font-size: 27px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header-content__btn {
     width: 100%;
     height: 50px;
@@ -402,7 +402,7 @@
   width: 100%;
   display: flex;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .about-wrapper {
     display: inline-block;
   }
@@ -414,7 +414,7 @@
   padding: 0 5% 0 0;
   margin: 7vh 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .about-company {
     margin: 5vh 0;
     width: 100%;
@@ -429,7 +429,7 @@
   text-transform: uppercase;
   border-bottom: 1px solid #ffffff;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .about-company__title {
     font-size: 30px;
   }
@@ -441,7 +441,7 @@
   font-weight: 400;
   margin: 2vh 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .about-company__subtitle {
     font-size: 28px;
     text-align: center;
@@ -453,7 +453,7 @@
   margin: 0;
   font-weight: 100;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .about-company__text {
     display: none;
   }
@@ -464,7 +464,7 @@
   padding: 5vh 0 0 5%;
   margin: 7vh 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .about-us {
     width: 100%;
     padding: 0;
@@ -481,7 +481,7 @@
   width: 45%;
   border: 3px solid #ffffff;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .about-us__photo-wrapper {
     width: 80%;
   }
@@ -497,7 +497,7 @@
   justify-content: space-around;
   bottom: 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .about-us__arrow {
     width: 100%;
     bottom: 5px;
@@ -510,7 +510,7 @@
   text-align: right;
   margin: 15px 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .about-us__name {
     font-size: 25px;
     text-align: center;
@@ -523,7 +523,7 @@
   margin: 0;
   margin-bottom: 15px;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .about-us__title {
     font-size: 18px;
     text-align: center;
@@ -536,7 +536,7 @@
   color: #ffffff;
   font-weight: 100;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .about-us__text {
     font-size: 17px;
   }
@@ -555,6 +555,89 @@
   border-radius: 5px;
   width: 35px;
   text-align: center;
+}
+
+.progress {
+  width: 70%;
+  background-color: #1F2833;
+  padding: 0 15%;
+}
+
+.progress-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .progress-wrapper {
+    display: inline-block;
+  }
+}
+
+.progress-item {
+  text-align: center;
+  margin: 30px 0;
+}
+@media (max-width: 1024px) {
+  .progress-item {
+    margin: 15px 0;
+  }
+}
+.progress-item__title {
+  margin: 0;
+  font-size: 65px;
+  color: #ffffff;
+  font-weight: 400;
+}
+@media (max-width: 1366px) {
+  .progress-item__title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 1024px) {
+  .progress-item__title {
+    font-size: 45px;
+  }
+}
+.progress-item__text {
+  margin: 0;
+  font-size: 22px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+@media (max-width: 1366px) {
+  .progress-item__text {
+    font-size: 17px;
+  }
+}
+@media (max-width: 1024px) {
+  .progress-item__text {
+    font-size: 15px;
+  }
+}
+
+.progress-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .progress-line {
+    display: none;
+  }
+}
+.progress-line__line {
+  width: 1px;
+  height: 110px;
+  background-color: #ffffff;
+  position: absolute;
+}
+@media (max-width: 1024px) {
+  .progress-line__line {
+    height: 70px;
+  }
 }
 
 body {
