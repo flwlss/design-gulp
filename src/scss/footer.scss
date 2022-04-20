@@ -1,0 +1,66 @@
+.footer {
+  width: 70%;
+  background-image: url(../img/footerBackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 15%;
+}
+
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-rights {
+  display: flex;
+  align-items: center;
+  width: 50%;
+
+  &__logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+  }
+
+  &__text {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: right;
+
+  &__whatsapp {
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/icons/whatsapp.png);
+
+    &:hover {
+      background-image: url(../img/icons/whatsapp-hover.png);
+    }
+  }
+
+  &__tg {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/icons/tg.png);
+
+    &:hover {
+      background-image: url(../img/icons/tg-hover.png);
+    }
+  }
+}

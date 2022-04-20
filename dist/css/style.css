@@ -845,6 +845,67 @@
   }
 }
 
+.footer {
+  width: 70%;
+  background-image: url(../img/footerBackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 15%;
+}
+
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-rights {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.footer-rights__logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+.footer-rights__text {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: right;
+}
+.footer-socials__whatsapp {
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/icons/whatsapp.png);
+}
+.footer-socials__whatsapp:hover {
+  background-image: url(../img/icons/whatsapp-hover.png);
+}
+.footer-socials__tg {
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/icons/tg.png);
+}
+.footer-socials__tg:hover {
+  background-image: url(../img/icons/tg-hover.png);
+}
+
 body {
   padding: 0;
   margin: 0;
