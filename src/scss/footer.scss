@@ -1,16 +1,24 @@
 .footer {
   width: 70%;
-  background-image: url(../img/footerBackground.jpg);
+  background-image: url(../img/backgrounds/footerBackground.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 15%;
+
+  @media (max-width: 1024px) {
+    padding: 15px 15%;
+  }
 }
 
 .footer-wrapper {
   width: 100%;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
 }
 
 .footer-rights {
@@ -18,16 +26,34 @@
   align-items: center;
   width: 50%;
 
+  @media (max-width: 768px) {
+    width: 100%;
+    justify-content: center;
+  }
+
   &__logo {
     width: 70px;
     height: 70px;
     margin-right: 20px;
+
+    @media (max-width: 1024px) {
+      width: 60px;
+      height: 60px;
+    }
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   &__text {
     color: #fff;
     text-align: center;
     font-size: 14px;
+
+    @media (max-width: 1024px) {
+      font-size: 12px;
+    }
   }
 }
 
@@ -36,6 +62,12 @@
   align-items: center;
   width: 50%;
   justify-content: right;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
 
   &__whatsapp {
     width: 40px;
@@ -47,6 +79,11 @@
 
     &:hover {
       background-image: url(../img/icons/whatsapp-hover.png);
+    }
+
+    @media (max-width: 1024px) {
+      width: 30px;
+      height: 30px;
     }
   }
 
@@ -61,6 +98,11 @@
 
     &:hover {
       background-image: url(../img/icons/tg-hover.png);
+    }
+
+    @media (max-width: 1024px) {
+      width: 30px;
+      height: 30px;
     }
   }
 }
