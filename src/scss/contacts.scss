@@ -7,6 +7,11 @@
   padding: 20px 15%;
   scroll-margin-top: 80px;
 
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+
   &__title {
     font-size: 38px;
     color: #1F2833;
@@ -18,7 +23,33 @@
     }
 
     @media (max-width: 768px) {
-      display: none;
+      align-self: center;
+      margin-top: 20px;
+    }
+  }
+
+  &__button {
+    width: 300px;
+    height: 60px;
+    background-color: #1F2833;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+    @media (max-width:1366px) {
+      width: 260px;
+      height: 50px;
+      font-size: 18px;
+    }
+
+    @media (max-width: 1024px) {
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      margin-bottom: 15px;
     }
   }
 
@@ -159,7 +190,7 @@
     color: #1F2833;
 
     @media (max-width: 1024px) {
-      font-size: 30px;
+      font-size: 28px;
     }
 
     @media (max-width: 768px) {

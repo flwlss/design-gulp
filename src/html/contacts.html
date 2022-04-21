@@ -12,7 +12,7 @@
         <p class="contacts-email__subtitle">ПОЧТА:</p>
         <p class="contacts-email__text">architecturedesing@mail.ru</p>
       </div>
-      <!-- <button class="contacts__button">оставить заявку</button> -->
+      <button onclick="showCard()" class="contacts__button">оставить заявку</button>
     </div>
     <div class="contacts-numbers">
       <div class="contacts-numbers__wrapper">
@@ -30,3 +30,13 @@
     </div>
   </div>
 </section>
+
+<script>
+  function showCard() {
+    document.getElementById('card').style.display = "block";
+  }
+
+  function hideCard() {
+    document.getElementById('card').style.display = "none";
+  }
+</script>

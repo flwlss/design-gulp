@@ -1,0 +1,24 @@
+<section style="background-color: rgb(54, 58, 56);">
+  <form action="mail.php" method="POST">
+    <div class="hidden-card" id="card">
+      <div class="card">
+        <div class="card-left">
+          <p class="card-left__title">заказать<br> обратный звонок</p>
+          <button class="card-left__btn" type="submit">отправить</button>
+        </div>
+        <div class="card-right">
+          <div class="card-right__close" onclick="hideCard()"></div>
+          <label class="card-right__title" for="">ваше имя</label>
+          <input class="card-right__input" minlength="2" type="text" id="" name="user_name" required>
+
+          <label class="card-right__title" for="">телефон</label>
+          <input class="card-right__input" type="tel" name="user_phone" required id="phone"
+            placeholder="+7(999)999-99-99" />
+
+          <p class="card-right__text">МЫ ВАМ ПЕРЕЗВОНИМ<br> ЧЕРЕЗ 5 МИНУТ</p>
+        </div>
+      </div>
+    </div>
+  </form>
+</section>
+<script src="https://unpkg.com/imask"></script>
