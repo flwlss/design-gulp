@@ -16,6 +16,11 @@
   padding: 0 15%;
   border-bottom: 1px solid rgb(122, 121, 121);
 
+  @media (max-width: 768px) {
+    width: 90%;
+    padding: 0 5%;
+  }
+
   &__logo-wrapper {
     width: 20%;
     height: 100%;
@@ -74,6 +79,7 @@
     color: black;
     text-transform: uppercase;
     white-space: nowrap;
+    margin-bottom: 15px;
 
     &__tel {
       font-size: 21px;
@@ -82,7 +88,7 @@
       text-transform: uppercase;
       white-space: nowrap;
 
-      @media (min-width:768px) {
+      @media (min-width:769px) {
         display: none;
       }
     }
@@ -109,6 +115,8 @@
   @media (max-width: 768px) {
     align-items: center;
     justify-content: space-evenly;
+    padding: 0 5%;
+    width: 90%;
   }
 
   &__subtitle {

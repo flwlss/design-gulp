@@ -43,8 +43,7 @@
       </label>
 
       <ul class="menubox">
-        <div
-          style="height: 25vh; justify-content: space-between; display: flex; flex-direction: column; margin-left: 50px;">
+        <div>
           <a href="#about">
             <li class="header-nav__item-burger">о нас</li>
           </a>
@@ -259,8 +258,8 @@
               <span class="services__arrow"></span>
             </div>
             <div class="services__cost-mobile">
-              <span>ЖИЛЫЕ от 1 000 руб/ м²</span>
-              <span>КОММЕРЧЕСКИЕ от 500 руб/ м²</span>
+              <span class="services__cost-mobile__cost">ЖИЛЫЕ от 1 000 руб/ м²</span>
+              <span class="services__cost-mobile__cost">КОММЕРЧЕСКИЕ от 500 руб/ м²</span>
             </div>
           </a>
         </div>
@@ -278,8 +277,8 @@
               <span class="services__arrow"></span>
             </div>
             <div class="services__cost-mobile">
-              <span>ДО 100 м² от 60 000 руб.</span>
-              <span>ОТ 100 м² от 70 000 руб.</span>
+              <span class="services__cost-mobile__cost">ДО 100 м² от 60 000 руб.</span>
+              <span class="services__cost-mobile__cost">ОТ 100 м² от 70 000 руб.</span>
             </div>
           </a>
         </div>
@@ -296,8 +295,8 @@
               <span class="services__arrow"></span>
             </div>
             <div class="services__cost-mobile">
-              <span>ДО 150 м² от 30 000 руб/мес.</span>
-              <span>ДО 300 м² от 40 000 руб/мес.</span>
+              <span class="services__cost-mobile__cost">ДО 150 м² от 30 000 руб/мес.</span>
+              <span class="services__cost-mobile__cost">ДО 300 м² от 40 000 руб/мес.</span>
             </div>
           </a>
         </div>
@@ -313,7 +312,7 @@
               <span class="services__arrow"></span>
             </div>
             <div class="services__cost-mobile">
-              <span>СТОИМОСТЬ ВЫЕЗДА ДИЗАЙНЕРА от 1 500 руб.</span>
+              <span class="services__cost-mobile__cost">СТОИМОСТЬ ВЫЕЗДА ДИЗАЙНЕРА от 1 500 руб.</span>
             </div>
           </a>
         </div>
@@ -329,7 +328,7 @@
               <span class="services__arrow"></span>
             </div>
             <div class="services__cost-mobile">
-              <span>РАЗРАБОТКА ФИРМЕННОГО СТИЛЯ от 100 000 руб.</span>
+              <span class="services__cost-mobile__cost">РАЗРАБОТКА ФИРМЕННОГО СТИЛЯ от 100 000 руб.</span>
             </div>
           </a>
         </div>
@@ -348,7 +347,7 @@
               <span class="services__arrow"></span>
             </div>
             <div class="services__cost-mobile">
-              <span>ИНДИВИДУАЛЬНЫЙ ПРОЕКТ ДОМА от 1 000 руб/ м²</span>
+              <span class="services__cost-mobile__cost">ИНДИВИДУАЛЬНЫЙ ПРОЕКТ ДОМА от 1 000 руб/ м²</span>
             </div>
           </a>
         </div>
@@ -643,13 +642,14 @@
         <div class="card-right">
           <div class="card-right__close" onclick="hideCard()"></div>
           <label class="card-right__title" for="">ваше имя</label>
-          <input class="card-right__input" minlength="2" type="text" id="" name="user_name" required>
+          <input class="card-right__input" autocomplete="off" minlength="2" type="text" id="" name="user_name" required>
 
           <label class="card-right__title" for="">телефон</label>
-          <input class="card-right__input" type="tel" name="user_phone" required id="phone"
+          <input class="card-right__input" autocomplete="off" type="tel" name="user_phone" required id="phone"
             placeholder="+7(999)999-99-99" />
 
           <p class="card-right__text">МЫ ВАМ ПЕРЕЗВОНИМ<br> ЧЕРЕЗ 5 МИНУТ</p>
+          <button class="card-left__btn2" type="submit">отправить</button>
         </div>
       </div>
     </div>

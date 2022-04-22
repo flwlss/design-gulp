@@ -6,6 +6,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0 15%;
+
+  @media (max-width: 768px) {
+    width: 90%;
+    padding: 0 5%;
+  }
 }
 
 .about-wrapper {
@@ -21,15 +26,16 @@
   width: 45%;
   border-right: 1px solid #ffffff;
   padding: 0 5% 0 0;
-  margin: 7vh 0;
+  margin: 25px 0;
 
   @media (max-width: 768px) {
-    margin: 5vh 0;
+    margin: 20px 0;
     width: 100%;
     padding: 0;
     border: none;
+    display: flex;
+    flex-direction: column;
   }
-
 
   &__title {
     margin: 0;
@@ -40,6 +46,7 @@
 
     @media (max-width: 768px) {
       font-size: 30px;
+      align-self: center;
     }
   }
 
@@ -48,11 +55,12 @@
     color: #ffffff;
     margin: 0;
     font-weight: 400;
-    margin: 2vh 0;
+    margin: 20px 0;
 
     @media (max-width: 768px) {
       font-size: 28px;
       text-align: center;
+      margin: 10px 0;
     }
   }
 
@@ -63,21 +71,21 @@
     font-weight: 100;
 
     @media (max-width: 768px) {
-      display: none;
+      font-size: 18px;
     }
   }
 }
 
 .about-us {
   width: 45%;
-  padding: 5vh 0 0 5%;
-  margin: 7vh 0;
+  padding: 0 0 0 5%;
+  margin: 72px 0;
 
   @media (max-width: 768px) {
     width: 100%;
     padding: 0;
     border: none;
-    margin: 0 0 5vh 0;
+    margin: 20px 0;
   }
 
   &__align {
@@ -91,7 +99,11 @@
     border: 3px solid #ffffff;
 
     @media (max-width: 768px) {
-      width: 80%;
+      width: 35%;
+    }
+
+    @media (max-width: 480px) {
+      width: 70%;
     }
   }
 
@@ -108,7 +120,11 @@
     bottom: 0;
 
     @media (max-width: 768px) {
-      width: 100%;
+      width: 35%;
+    }
+
+    @media (max-width: 480px) {
+      width: 70%;
       bottom: 5px;
     }
   }
@@ -166,4 +182,14 @@
   border-radius: 5px;
   width: 35px;
   text-align: center;
+
+  @media (max-width: 768px) {
+    width: 30px;
+    font-size: 30px;
+  }
+
+  @media (max-width: 480px) {
+    width: 25px;
+    font-size: 25px;
+  }
 }
