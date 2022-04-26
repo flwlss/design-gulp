@@ -1,0 +1,133 @@
+<section id="portfolio" class="portfolio">
+  <div class="portfolio-header">
+    <p class="portfolio-header__title" onclick="design()">дизайн интерьера</p>
+    <div class="portfolio-line"></div>
+    <p class="portfolio-header__title" onclick="archidesign()">архитектурное <br> проектирование</p>
+    <div class="portfolio-line"></div>
+    <p class="portfolio-header__title" onclick="fitodesign()">фитодизайн</p>
+  </div>
+
+  <div class="portfolio-design" id="design">
+    <div class="portfolio-design-content">
+      <div class="portfolio-design-content-left">
+        <div class="portfolio-design-content-left__wrapper">
+          <div class="portfolio-opacity">
+            <div class="portfolio-basics">
+              <span class="portfolio-basics__line"></span>
+              <p class="portfolio-basics__text">design basics</p>
+              <span class="portfolio-basics__line"></span>
+            </div>
+            <p class="portfolio-opacity__title">Дизайн интерьера</p>
+            <p class="portfolio-opacity__text">
+              Современный дизайн интерьера — это решение задач. Задач бюджета,
+              функциональности, красоты и многого другого.
+              В создании дизайна интерьера мы используем аналитический
+              подход, он позволяет нам проектировать, как частное жилье,
+              так и офисы, кафе, рестораны, бары, галереи, музеи и т. д.
+              Мы исходим из тех задач, которые перед нами ставит клиент
+              и пространство интерьера. Думаем о том, как рационально
+              использовать бюджет на реализацию и создать уникальный
+              дизайн под конкретную задачу.</p>
+          </div>
+          <div>
+            <img class="portfolio-design-content-left__photo" src="@img/portfolio/designLeftPhoto.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-design-content-right">
+        <img class="portfolio-design-content-right__photo" src="@img/portfolio/designRightPhoto.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-archidesign" id="archidesign">
+    <div class="portfolio-design-content">
+      <div class="portfolio-design-content-left">
+        <div class="portfolio-design-content-left__wrapper">
+          <div class="portfolio-opacity">
+            <div class="portfolio-basics">
+              <span class="portfolio-basics__line"></span>
+              <p class="portfolio-basics__text">design basics</p>
+              <span class="portfolio-basics__line"></span>
+            </div>
+            <p class="portfolio-opacity__title">Архитектурное проектирование</p>
+            <p class="portfolio-opacity__text">
+              Команда ARCHITECTURE DESIGN STUDIO любит архитектуру
+              любого размера и назначения: от частных домов
+              до административных, общественных зданий и
+              торговых центров, от жилых кварталов до малых архитектурных
+              форм и благоустройства. Создавая архитектуру,
+              мы делаем не просто проект и все его стадии, мы думаем о
+              сценариях жизни человека, который там будет
+              жить, работать, отдыхать и учиться.
+              Создание архитектуры — это многослойный процесс,
+              который на каждой стадии уточняется и детализируется.
+              Мы считаем путь от общего к
+              частному и аналитический подход к процессу создания формы
+              опорными точками своего метода проектирования.</p>
+          </div>
+          <div>
+            <img class="portfolio-design-content-left__photo" src="@img/portfolio/archiLeftPhoto.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-design-content-right">
+        <img class="portfolio-design-content-right__photo" src="@img/portfolio/archiRightPhoto.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-fitodesign" id="fitodesign">
+    <div class="portfolio-design-content">
+      <div class="portfolio-design-content-left">
+        <div class="portfolio-design-content-left__wrapper">
+          <div class="portfolio-opacity">
+            <div class="portfolio-basics">
+              <span class="portfolio-basics__line"></span>
+              <p class="portfolio-basics__text">design basics</p>
+              <span class="portfolio-basics__line"></span>
+            </div>
+            <p class="portfolio-opacity__title">Фитодизайн</p>
+            <p class="portfolio-opacity__text">
+              Фитодизайн – новое направление в дизайне, для реализации
+              которого используются живые или стабилизированные растения.
+              Композиции из лиственных или цветущих растений способны
+              преобразить любое пространство и сделать его более уютным
+              и располагающим. Натуральные растения придают интерьеру свежесть,
+              расставляют нужные акценты, способны скрыть недостатки и
+              подчеркнуть достоинства помещения. Плодотворно сказываются
+              на общем состоянии человека, его работоспособности и ощущении комфорта.</p>
+          </div>
+          <div>
+            <img class="portfolio-design-content-left__photo" src="@img/portfolio/fitoLeftPhoto.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-design-content-right">
+        <img class="portfolio-design-content-right__photo" src="@img/portfolio/fitoRightPhoto.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function design() {
+    document.getElementById('design').style.display = "block";
+    document.getElementById('archidesign').style.display = "none";
+    document.getElementById('fitodesign').style.display = "none";
+    // document.getElementById('portfolio-popup-fitodesign').style.display = "none";
+  }
+  function archidesign() {
+    document.getElementById('design').style.display = "none";
+    document.getElementById('archidesign').style.display = "block";
+    document.getElementById('fitodesign').style.display = "none";
+    // document.getElementById('portfolio-popup-fitodesign').style.display = "none";
+    // document.getElementById('portfolio-popup-design').style.display = "none";
+  }
+  function fitodesign() {
+    document.getElementById('design').style.display = "none";
+    document.getElementById('archidesign').style.display = "none";
+    document.getElementById('fitodesign').style.display = "block";
+    // document.getElementById('portfolio-popup-design').style.display = "none";
+  }
+</script>

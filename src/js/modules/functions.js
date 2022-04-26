@@ -122,7 +122,6 @@ closeSix.addEventListener("click", function (evt) {
 });
 
 
-
 var arrowSix = document.querySelector(".arrow-six");
 var openSix = document.querySelector(".form-six");
 var closeSix = document.querySelector(".form-close-six");
