@@ -429,6 +429,11 @@
   padding: 0 5% 0 0;
   margin: 25px 0;
 }
+@media (max-width: 1024px) {
+  .about-company {
+    margin: 20px 0;
+  }
+}
 @media (max-width: 768px) {
   .about-company {
     margin: 20px 0;
@@ -446,6 +451,11 @@
   text-transform: uppercase;
   border-bottom: 1px solid #ffffff;
 }
+@media (max-width: 1024px) {
+  .about-company__title {
+    font-size: 30px;
+  }
+}
 @media (max-width: 768px) {
   .about-company__title {
     font-size: 30px;
@@ -458,6 +468,12 @@
   margin: 0;
   font-weight: 400;
   margin: 20px 0;
+}
+@media (max-width: 1024px) {
+  .about-company__subtitle {
+    font-size: 28px;
+    margin: 10px 0;
+  }
 }
 @media (max-width: 768px) {
   .about-company__subtitle {
@@ -472,6 +488,11 @@
   margin: 0;
   font-weight: 100;
 }
+@media (max-width: 1024px) {
+  .about-company__text {
+    font-size: 18px;
+  }
+}
 @media (max-width: 768px) {
   .about-company__text {
     font-size: 18px;
@@ -482,6 +503,11 @@
   width: 45%;
   padding: 0 0 0 5%;
   margin: 72px 0;
+}
+@media (max-width: 1024px) {
+  .about-us {
+    margin: 58px 0;
+  }
 }
 @media (max-width: 768px) {
   .about-us {
@@ -499,6 +525,11 @@
 .about-us__photo-wrapper {
   width: 45%;
   border: 3px solid #ffffff;
+}
+@media (max-width: 1024px) {
+  .about-us__photo-wrapper {
+    width: 50%;
+  }
 }
 @media (max-width: 768px) {
   .about-us__photo-wrapper {
@@ -521,6 +552,11 @@
   justify-content: space-around;
   bottom: 0;
 }
+@media (max-width: 1024px) {
+  .about-us__arrow {
+    width: 50%;
+  }
+}
 @media (max-width: 768px) {
   .about-us__arrow {
     width: 35%;
@@ -539,6 +575,12 @@
   text-align: right;
   margin: 15px 0;
 }
+@media (max-width: 1024px) {
+  .about-us__name {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+}
 @media (max-width: 768px) {
   .about-us__name {
     font-size: 25px;
@@ -552,6 +594,12 @@
   margin: 0;
   margin-bottom: 15px;
 }
+@media (max-width: 1024px) {
+  .about-us__title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}
 @media (max-width: 768px) {
   .about-us__title {
     font-size: 18px;
@@ -564,6 +612,12 @@
   font-size: 20px;
   color: #ffffff;
   font-weight: 100;
+}
+@media (max-width: 1024px) {
+  .about-us__text {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
 }
 @media (max-width: 768px) {
   .about-us__text {
@@ -590,6 +644,13 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+@media (max-width: 1024px) {
+  .prev,
+.next {
+    width: 30px;
+    font-size: 30px;
+  }
 }
 @media (max-width: 768px) {
   .prev,
@@ -712,7 +773,7 @@
 }
 @media (max-width: 1024px) {
   .contacts__title {
-    font-size: 32px;
+    font-size: 30px;
   }
 }
 @media (max-width: 768px) {
@@ -1892,46 +1953,17 @@
   }
 }
 
-.portfolio-arrow {
-  width: 10%;
+.portfolio-btn {
+  border: 2px solid #5AB9EA;
+  width: 100px;
+  padding: 5px;
+  margin-top: 10px;
   display: flex;
   align-items: center;
-  cursor: pointer;
+  justify-content: center;
 }
-.portfolio-arrow__wrapper {
-  width: 20%;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-}
-.portfolio-arrow__arrow {
-  position: relative;
-  width: 100%;
-  height: 2px;
-  background-color: #5680E9;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-  display: block;
-}
-.portfolio-arrow__arrow:after {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 2px;
-  top: -3px;
-  right: -2px;
-  background-color: #5680E9;
-  transform: rotate(45deg);
-}
-.portfolio-arrow__arrow:before {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 2px;
-  top: 3px;
-  right: -2px;
-  background-color: #5680E9;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-  transform: rotate(-45deg);
+.portfolio-btn__text {
+  color: #5AB9EA;
 }
 
 body {
@@ -1939,7 +1971,7 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  min-width: 320px;
+  min-width: 340px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
