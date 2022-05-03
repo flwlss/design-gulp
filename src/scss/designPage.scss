@@ -9,9 +9,9 @@
 
 .design-square {
   display: grid;
-  gap: 40px;
-  grid-template-columns: repeat(auto-fit, 400px);
-  justify-content: space-between;
+  gap: 30px;
+  // grid-template-columns: repeat(auto-fit, 400px);
+  justify-content: center;
   margin-top: 40px;
 
   &__wrapper {
@@ -19,6 +19,14 @@
     width: 400px;
     height: 400px;
     overflow: hidden;
+
+    @media (max-width: 768px) {
+  // grid-template-columns: repeat(auto-fit, 200px);
+
+      width: 200px;
+      height: 200px;
+      justify-content: center;
+    }
   }
 
   &__photo {

@@ -1995,9 +1995,8 @@
 
 .design-square {
   display: grid;
-  gap: 40px;
-  grid-template-columns: repeat(auto-fit, 400px);
-  justify-content: space-between;
+  gap: 30px;
+  justify-content: center;
   margin-top: 40px;
 }
 .design-square__wrapper {
@@ -2005,6 +2004,13 @@
   width: 400px;
   height: 400px;
   overflow: hidden;
+}
+@media (max-width: 768px) {
+  .design-square__wrapper {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+  }
 }
 .design-square__photo {
   width: 100%;
