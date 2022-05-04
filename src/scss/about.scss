@@ -17,7 +17,7 @@
   width: 100%;
   display: flex;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     display: inline-block;
   }
 }
@@ -29,10 +29,6 @@
   margin: 25px 0;
 
   @media (max-width: 1024px) {
-    margin: 20px 0;
-  }
-
-  @media (max-width: 768px) {
     margin: 20px 0;
     width: 100%;
     padding: 0;
@@ -50,10 +46,6 @@
 
     @media (max-width: 1024px) {
       font-size: 30px;
-    }
-
-    @media (max-width: 768px) {
-      font-size: 30px;
       align-self: center;
     }
   }
@@ -68,12 +60,7 @@
     @media (max-width: 1024px) {
       font-size: 28px;
       margin: 10px 0;
-    }
-
-    @media (max-width: 768px) {
-      font-size: 28px;
       text-align: center;
-      margin: 10px 0;
     }
   }
 
@@ -88,7 +75,7 @@
     }
 
     @media (max-width: 768px) {
-      font-size: 18px;
+      font-size: 17px;
     }
   }
 }
@@ -100,9 +87,6 @@
 
   @media (max-width: 1024px) {
     margin: 58px 0;
-  }
-
-  @media (max-width: 768px) {
     width: 100%;
     padding: 0;
     border: none;
@@ -120,11 +104,7 @@
     border: 3px solid #ffffff;
 
     @media (max-width: 1024px) {
-      width: 50%;
-    }
-
-    @media (max-width: 768px) {
-      width: 35%;
+      width: 40%;
     }
 
     @media (max-width: 480px) {
@@ -145,11 +125,7 @@
     bottom: 0;
 
     @media (max-width: 1024px) {
-      width: 50%;
-    }
-
-    @media (max-width: 768px) {
-      width: 35%;
+      width: 40%;
     }
 
     @media (max-width: 480px) {
@@ -168,10 +144,6 @@
     @media (max-width: 1024px) {
       font-size: 25px;
       margin: 10px 0;
-    }
-
-    @media (max-width: 768px) {
-      font-size: 25px;
       text-align: center;
     }
   }
@@ -186,10 +158,6 @@
     @media (max-width: 1024px) {
       font-size: 18px;
       margin-bottom: 10px;
-    }
-
-    @media (max-width: 768px) {
-      font-size: 18px;
       text-align: center;
     }
   }
@@ -202,12 +170,8 @@
     font-weight: 100;
 
     @media (max-width: 1024px) {
-      font-size: 19px;
-      margin-bottom: 10px;
-    }
-
-    @media (max-width: 768px) {
       font-size: 17px;
+      margin-bottom: 10px;
     }
 
     &:last-child {

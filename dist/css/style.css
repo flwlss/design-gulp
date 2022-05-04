@@ -417,7 +417,7 @@
   width: 100%;
   display: flex;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .about-wrapper {
     display: inline-block;
   }
@@ -430,11 +430,6 @@
   margin: 25px 0;
 }
 @media (max-width: 1024px) {
-  .about-company {
-    margin: 20px 0;
-  }
-}
-@media (max-width: 768px) {
   .about-company {
     margin: 20px 0;
     width: 100%;
@@ -454,11 +449,6 @@
 @media (max-width: 1024px) {
   .about-company__title {
     font-size: 30px;
-  }
-}
-@media (max-width: 768px) {
-  .about-company__title {
-    font-size: 30px;
     align-self: center;
   }
 }
@@ -473,13 +463,7 @@
   .about-company__subtitle {
     font-size: 28px;
     margin: 10px 0;
-  }
-}
-@media (max-width: 768px) {
-  .about-company__subtitle {
-    font-size: 28px;
     text-align: center;
-    margin: 10px 0;
   }
 }
 .about-company__text {
@@ -495,7 +479,7 @@
 }
 @media (max-width: 768px) {
   .about-company__text {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
@@ -507,10 +491,6 @@
 @media (max-width: 1024px) {
   .about-us {
     margin: 58px 0;
-  }
-}
-@media (max-width: 768px) {
-  .about-us {
     width: 100%;
     padding: 0;
     border: none;
@@ -528,12 +508,7 @@
 }
 @media (max-width: 1024px) {
   .about-us__photo-wrapper {
-    width: 50%;
-  }
-}
-@media (max-width: 768px) {
-  .about-us__photo-wrapper {
-    width: 35%;
+    width: 40%;
   }
 }
 @media (max-width: 480px) {
@@ -554,12 +529,7 @@
 }
 @media (max-width: 1024px) {
   .about-us__arrow {
-    width: 50%;
-  }
-}
-@media (max-width: 768px) {
-  .about-us__arrow {
-    width: 35%;
+    width: 40%;
   }
 }
 @media (max-width: 480px) {
@@ -579,11 +549,6 @@
   .about-us__name {
     font-size: 25px;
     margin: 10px 0;
-  }
-}
-@media (max-width: 768px) {
-  .about-us__name {
-    font-size: 25px;
     text-align: center;
   }
 }
@@ -598,11 +563,6 @@
   .about-us__title {
     font-size: 18px;
     margin-bottom: 10px;
-  }
-}
-@media (max-width: 768px) {
-  .about-us__title {
-    font-size: 18px;
     text-align: center;
   }
 }
@@ -615,13 +575,8 @@
 }
 @media (max-width: 1024px) {
   .about-us__text {
-    font-size: 19px;
-    margin-bottom: 10px;
-  }
-}
-@media (max-width: 768px) {
-  .about-us__text {
     font-size: 17px;
+    margin-bottom: 10px;
   }
 }
 .about-us__text:last-child {
@@ -699,7 +654,7 @@
   color: #ffffff;
   font-weight: 400;
 }
-@media (max-width: 1366px) {
+@media (max-width: 1367px) {
   .progress-item__title {
     font-size: 50px;
   }
@@ -716,7 +671,7 @@
   text-transform: uppercase;
   font-weight: 100;
 }
-@media (max-width: 1366px) {
+@media (max-width: 1367px) {
   .progress-item__text {
     font-size: 17px;
   }
