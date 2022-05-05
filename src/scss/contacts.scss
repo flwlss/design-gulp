@@ -18,6 +18,10 @@
     text-transform: uppercase;
     border-bottom: 1px solid #1F2833;
 
+    @media (max-width: 1366px) {
+      font-size: 34px;
+    }
+
     @media (max-width: 1024px) {
       font-size: 30px;
     }
@@ -94,6 +98,10 @@
     color: #1F2833;
     text-align: center;
 
+    @media (max-width: 1366px) {
+      font-size: 28px;
+    }
+
     @media (max-width: 1024px) {
       font-size: 25px;
     }
@@ -108,6 +116,10 @@
     color: #1F2833;
     text-align: center;
     margin-left: 50px;
+
+    @media (max-width: 1366px) {
+      font-size: 17px;
+    }
 
     @media (max-width: 1024px) {
       font-size: 16px;
@@ -136,6 +148,10 @@
     color: #1F2833;
     text-align: center;
 
+    @media (max-width: 1366px) {
+      font-size: 28px;
+    }
+
     @media (max-width: 1024px) {
       font-size: 25px;
     }
@@ -150,6 +166,10 @@
     color: #1F2833;
     text-align: center;
     margin-left: 50px;
+
+    @media (max-width: 1366px) {
+      font-size: 17px;
+    }
 
     @media (max-width: 1024px) {
       font-size: 16px;
@@ -189,12 +209,15 @@
     font-size: 35px;
     color: #1F2833;
 
+    @media (max-width: 1366px) {
+      font-size: 32px;
+    }
+
     @media (max-width: 1024px) {
       font-size: 28px;
     }
 
     @media (max-width: 768px) {
-      font-size: 28px;
       text-align: center;
     }
   }
