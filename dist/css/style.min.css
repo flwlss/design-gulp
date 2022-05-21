@@ -1986,7 +1986,7 @@
 .design-page {
   width: 70%;
   background-repeat: repeat;
-  background-image: url(../../img/backgrounds/designBackground.jpg);
+  background-image: url(../img/backgrounds/designBackground.jpg);
   background-color: grey;
   padding: 50px 15%;
 }
@@ -2044,7 +2044,7 @@
 .design-page-item {
   width: 100%;
   background-repeat: repeat;
-  background-image: url(../../img/backgrounds/designItemBackground.png);
+  background-image: url(../img/backgrounds/designItemBackground.png);
   background-color: grey;
 }
 .design-page-item__text {
@@ -2062,6 +2062,7 @@
   width: 100%;
   margin-bottom: 10px;
   display: flex;
+  justify-content: center;
 }
 .design-page-item__imgWrapper:last-child {
   margin-bottom: 0;
