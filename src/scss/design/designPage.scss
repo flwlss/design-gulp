@@ -1,7 +1,9 @@
 .design-page {
   width: 70%;
-  background-repeat: repeat;
-  background-image: url(../../img/backgrounds/designBackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../img/backgrounds/portfolioBackground.jpg);
   padding: 50px 15%;
 
   @media (max-width: 1024px) {
@@ -11,6 +13,7 @@
 
   &__text {
     font-size: 18px;
+    color: #fff;
   }
 }
 
@@ -58,7 +61,7 @@
 .design-page-item {
   width: 100%;
   background-repeat: repeat;
-  background-image: url(../../img/backgrounds/designItemBackground.png);
+  background-image: url(../../img/backgrounds/contactsBackground.jpg);
 
   &__text {
     font-size: 18px;
