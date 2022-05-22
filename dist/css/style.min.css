@@ -1990,7 +1990,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../../img/backgrounds/portfolioBackground.jpg);
+  background-image: url(../img/backgrounds/portfolioBackground.jpg);
   padding: 50px 15%;
 }
 @media (max-width: 1024px) {
@@ -2047,8 +2047,10 @@
 
 .design-page-item {
   width: 100%;
-  background-repeat: repeat;
-  background-image: url(../../img/backgrounds/contactsBackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/backgrounds/contactsBackground.jpg);
 }
 .design-page-item__text {
   font-size: 18px;
