@@ -1987,10 +1987,7 @@
 
 .design-page {
   width: 70%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../img/backgrounds/portfolioBackground.jpg);
+  background-color: #999;
   padding: 50px 15%;
 }
 @media (max-width: 1024px) {
@@ -2047,10 +2044,6 @@
 
 .design-page-item {
   width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../img/backgrounds/contactsBackground.jpg);
 }
 .design-page-item__text {
   font-size: 18px;
